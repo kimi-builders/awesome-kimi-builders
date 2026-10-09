@@ -1,0 +1,16 @@
+{
+  "name": "ghyghoo8/kimi-skill",
+  "url": "https://github.com/ghyghoo8/kimi-skill",
+  "descriptionZh": "面向 Kimi 平台的 Agent Skills 组:路由入口加 CLI/API/子代理/数据源四个子技能",
+  "descriptionEn": "Agent skills pack for the Kimi platform: a router plus subagent, CLI, API and datasource sub-skills",
+  "category": "learning",
+  "agents": [
+    "kimi",
+    "claude-code"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-skill",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

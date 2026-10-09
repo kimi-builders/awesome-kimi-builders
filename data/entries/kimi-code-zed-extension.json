@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/kimi-code-zed-extension",
+  "url": "https://github.com/MoonshotAI/kimi-code-zed-extension",
+  "descriptionZh": "官方 Zed 编辑器扩展,把 Kimi CLI 作为 ACP agent 集成进 Zed",
+  "descriptionEn": "Official Zed editor extension integrating Kimi CLI as an ACP agent",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-code-zed-extension",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

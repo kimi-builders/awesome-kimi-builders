@@ -1,0 +1,13 @@
+{
+  "name": "songquanpeng/one-api",
+  "url": "https://github.com/songquanpeng/one-api",
+  "descriptionZh": "经典 LLM API 管理与分发网关,内置 Moonshot AI(月之暗面)渠道",
+  "descriptionEn": "Classic LLM API management and relay gateway with a built-in Moonshot AI channel",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-one-api",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

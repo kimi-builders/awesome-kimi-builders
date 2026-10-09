@@ -1,0 +1,16 @@
+{
+  "name": "xiaoju111a/kimi-actions",
+  "url": "https://github.com/xiaoju111a/kimi-actions",
+  "descriptionZh": "GitHub Action,用 Kimi(K2.5 + Agent SDK)自动评审 PR,支持自定义技能与仓库级配置",
+  "descriptionEn": "GitHub Action that reviews PRs with Kimi (K2.5 + Agent SDK), supporting custom skills and repo-level config",
+  "category": "integrations",
+  "agents": [
+    "kimi"
+  ],
+  "homepage": "https://github.com/marketplace/actions/kimi-code-review",
+  "protocolVersion": 1,
+  "id": "entry-kimi-actions",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

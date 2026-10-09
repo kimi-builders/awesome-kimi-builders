@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/checkpoint-engine",
+  "url": "https://github.com/MoonshotAI/checkpoint-engine",
+  "descriptionZh": "官方权重热更新中间件,RL 场景下为 vLLM/SGLang 推理引擎秒级更新万亿参数模型权重",
+  "descriptionEn": "Official middleware for hot-updating LLM weights in RL, refreshing trillion-param models on vLLM/SGLang in seconds",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-checkpoint-engine",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

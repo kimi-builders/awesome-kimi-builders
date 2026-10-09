@@ -1,0 +1,16 @@
+{
+  "name": "odysa/one-agent-sdk",
+  "url": "https://github.com/odysa/one-agent-sdk",
+  "descriptionZh": "统一多 agent SDK,内置 kimi-cli provider,可作 claude-agent-sdk 的替换",
+  "descriptionEn": "Unified multi-agent SDK with a dedicated kimi-cli provider, usable as a drop-in for claude-agent-sdk",
+  "category": "sdks",
+  "agents": [
+    "kimi",
+    "claude-code"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-one-agent-sdk",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

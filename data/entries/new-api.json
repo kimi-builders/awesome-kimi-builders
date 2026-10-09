@@ -1,0 +1,13 @@
+{
+  "name": "QuantumNous/new-api",
+  "url": "https://github.com/QuantumNous/new-api",
+  "descriptionZh": "one-api 的主流增强分支,源码内置 Moonshot 渠道与 kimi-coding-plan 特殊渠道",
+  "descriptionEn": "Mainstream enhanced fork of one-api with Moonshot and kimi-coding-plan channels in its source tree",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-new-api",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

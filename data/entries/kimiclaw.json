@@ -1,0 +1,15 @@
+{
+  "name": "artbras/KimiClaw",
+  "url": "https://github.com/artbras/KimiClaw",
+  "descriptionZh": "部署在 Cloudflare Workers 上的个人 agent,以 Kimi API 为默认模型,可接 Telegram/Discord 等",
+  "descriptionEn": "Serverless personal agent on Cloudflare Workers using the Kimi API as its main model, connectable to Telegram/Discord",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimiclaw",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

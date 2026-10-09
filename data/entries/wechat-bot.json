@@ -1,0 +1,15 @@
+{
+  "name": "wangrongding/wechat-bot",
+  "url": "https://github.com/wangrongding/wechat-bot",
+  "descriptionZh": "多通道 IM AI 机器人(微信/飞书/Telegram/WhatsApp),内置 Kimi 接入",
+  "descriptionEn": "Multi-channel IM AI bot (WeChat, Feishu, Telegram, WhatsApp) with built-in Kimi support",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-wechat-bot",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

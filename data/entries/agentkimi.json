@@ -1,0 +1,16 @@
+{
+  "name": "dominiclynchwoodlands-ui/agentKimi",
+  "url": "https://github.com/dominiclynchwoodlands-ui/agentKimi",
+  "descriptionZh": "MCP 服务器,在 bubblewrap 沙箱中让 Kimi K2.7-code 自主编码并返回 git diff",
+  "descriptionEn": "MCP server running Kimi K2.7-code autonomous coding sessions inside a bubblewrap sandbox, returning git diffs",
+  "category": "integrations",
+  "agents": [
+    "kimi",
+    "claude-code"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-agentkimi",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

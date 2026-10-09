@@ -1,0 +1,17 @@
+{
+  "name": "zhuangzard/research-expert-panel",
+  "url": "https://github.com/zhuangzard/research-expert-panel",
+  "descriptionZh": "Claude Code 技能:研究判断时召集 Codex 与 Kimi 做独立第三方评审并合成结论",
+  "descriptionEn": "Claude Code skill convening Codex and Kimi as independent expert reviewers for research judgments",
+  "category": "learning",
+  "agents": [
+    "claude-code",
+    "codex",
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-research-expert-panel",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

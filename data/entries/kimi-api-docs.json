@@ -1,0 +1,15 @@
+{
+  "name": "Kimi API 开放平台文档",
+  "url": "https://platform.kimi.com/docs/overview",
+  "descriptionZh": "Kimi API 开放平台官方文档站,含模型列表、API 参考、定价与接入指南",
+  "descriptionEn": "Official Kimi API platform documentation with model list, API reference, pricing and integration guides",
+  "category": "learning",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-api-docs",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

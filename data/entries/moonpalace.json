@@ -1,0 +1,15 @@
+{
+  "name": "MoonPalace",
+  "url": "https://github.com/MoonshotAI/moonpalace",
+  "descriptionZh": "Kimi API 调试与计费参考工具(官方),支持插件与代码生成。",
+  "descriptionEn": "Official debugging and billing-reference tool for the Kimi API.",
+  "category": "integrations",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-moonpalace",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

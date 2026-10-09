@@ -1,0 +1,13 @@
+{
+  "name": "OpenRouter Moonshot AI",
+  "url": "https://openrouter.ai/moonshotai",
+  "descriptionZh": "OpenRouter 的 Moonshot AI 模型目录,统一 API 接入 Kimi K3/K2.7 Code 等全系模型",
+  "descriptionEn": "OpenRouter's Moonshot AI catalog offering unified API access to the Kimi family including K3 and K2.7 Code",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-openrouter-moonshotai",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

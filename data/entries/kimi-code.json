@@ -1,0 +1,34 @@
+{
+  "name": "Kimi Code",
+  "url": "https://github.com/MoonshotAI/kimi-code",
+  "descriptionZh": "Kimi Code CLI 是 Moonshot AI 的终端编码 Agent，可通过 Kimi 模型读取、修改代码并使用工具。",
+  "descriptionEn": "Kimi Code CLI is Moonshot AI’s terminal coding agent, using Kimi models to read and edit code and use tools.",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-code",
+  "publication": "published",
+  "officialSubject": "moonshot",
+  "kind": "cli",
+  "scope": "eco",
+  "author": {
+    "name": "MoonshotAI",
+    "url": "https://github.com/MoonshotAI"
+  },
+  "kimiEvidence": [
+    {
+      "url": "https://github.com/MoonshotAI/kimi-code/blob/419aced0e97fa04b75f8f71b089e1667f6de6d0a/README.md",
+      "note": "The upstream README identifies Moonshot AI as the CLI maintainer and documents Kimi model support."
+    }
+  ],
+  "review": {
+    "checkedAt": "2026-10-09",
+    "revision": "419aced0e97fa04b75f8f71b089e1667f6de6d0a",
+    "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+  },
+  "bodyZh": "## 是什么\nKimi Code CLI 是面向开发者的终端 Agent，由 Moonshot AI 维护，直接支持 Kimi 模型，可在项目目录中读取与修改代码并使用工具。\n\n## 快速使用\n1. 按[上游安装指南](https://moonshotai.github.io/kimi-code/en/guides/getting-started)安装。\n2. 进入项目目录，运行 `kimi`。\n3. 通过 `/login` 选择上游文档支持的认证方式，再询问项目内容。\n\n## 前提与限制\nWindows 需要 Git for Windows。审核工具操作，把凭据保留在本机。本条目仅核对文档，未安装或实测软件。\n\n## 出处\n\n[上游 README](https://github.com/MoonshotAI/kimi-code/blob/419aced0e97fa04b75f8f71b089e1667f6de6d0a/README.md)，核对版本 `419aced0e97fa04b75f8f71b089e1667f6de6d0a`。\n",
+  "bodyEn": "## What it is\nKimi Code CLI is a terminal agent for developers working in a project directory. Moonshot AI maintains it, and Kimi models are supported directly.\n\n## Quick start\n1. Follow the [upstream installation guide](https://moonshotai.github.io/kimi-code/en/guides/getting-started).\n2. Open a project directory and run `kimi`.\n3. Use `/login` to choose the authentication method documented upstream, then ask about the project.\n\n## Requirements and limits\nWindows users need Git for Windows as documented upstream. Review requested tool actions and keep credentials local. This entry was checked against documentation; the software was not installed or tested here.\n\n## Source\n\n[Upstream README](https://github.com/MoonshotAI/kimi-code/blob/419aced0e97fa04b75f8f71b089e1667f6de6d0a/README.md), checked revision `419aced0e97fa04b75f8f71b089e1667f6de6d0a`.\n"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Kimi Cookbook",
+  "url": "https://github.com/aklmans/kimi-cookbook",
+  "descriptionZh": "《Kimi · 从长文本到一套 agent 栈》电子书与静态站点(kimi.read.wiki)。",
+  "descriptionEn": "An editorial ebook site about the Kimi agent stack (kimi.read.wiki).",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "homepage": "https://kimi.read.wiki",
+  "protocolVersion": 1,
+  "id": "entry-kimi-cookbook",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

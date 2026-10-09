@@ -1,0 +1,13 @@
+{
+  "name": "asgeirtj/system_prompts_leaks",
+  "url": "https://github.com/asgeirtj/system_prompts_leaks",
+  "descriptionZh": "知名系统提示词泄露合集,设 Moonshot/Kimi 专节收录其各版本系统提示词",
+  "descriptionEn": "Well-known system prompt leak collection with a dedicated Moonshot/Kimi section across versions",
+  "category": "learning",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-system-prompts-leaks",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

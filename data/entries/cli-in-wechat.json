@@ -1,0 +1,18 @@
+{
+  "name": "sgaofen/cli-in-wechat",
+  "url": "https://github.com/sgaofen/cli-in-wechat",
+  "descriptionZh": "在微信里运行多种编码 CLI(含 Kimi Code)的桥接项目,含专用 Kimi 适配器与路由",
+  "descriptionEn": "Bridge for running coding CLIs including Kimi Code inside WeChat, with a dedicated Kimi adapter and routing",
+  "category": "apps",
+  "agents": [
+    "kimi",
+    "claude-code",
+    "codex",
+    "gemini"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-cli-in-wechat",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

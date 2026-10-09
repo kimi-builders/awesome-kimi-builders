@@ -1,0 +1,16 @@
+{
+  "name": "jacob-bd/relay-ai",
+  "url": "https://github.com/jacob-bd/relay-ai",
+  "descriptionZh": "任意模型接任意编码 agent 的网关 CLI,文档示例含 Moonshot 的 kimi-k3",
+  "descriptionEn": "Gateway CLI connecting any model to any coding agent, with documented Moonshot kimi-k3 examples",
+  "category": "integrations",
+  "agents": [
+    "kimi",
+    "claude-code"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-relay-ai",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

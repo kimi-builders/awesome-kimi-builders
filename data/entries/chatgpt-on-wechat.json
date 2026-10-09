@@ -1,0 +1,15 @@
+{
+  "name": "zhayujie/chatgpt-on-wechat",
+  "url": "https://github.com/zhayujie/chatgpt-on-wechat",
+  "descriptionZh": "多渠道 AI 助理框架(现名 CowAgent),可接微信/企微/公众号,模型层内置 Kimi 接入",
+  "descriptionEn": "Multi-channel AI assistant framework (now CowAgent) for WeChat and more, with built-in Kimi (Moonshot) support",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-chatgpt-on-wechat",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

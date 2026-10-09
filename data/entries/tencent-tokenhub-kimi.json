@@ -1,0 +1,13 @@
+{
+  "name": "腾讯云 TokenHub Kimi 调用指南",
+  "url": "https://cloud.tencent.com/document/product/1823/132232",
+  "descriptionZh": "腾讯云大模型服务平台的 Kimi 专属调用指南,支持 kimi-k3/k2.7-code 等模型与思考参数",
+  "descriptionEn": "Tencent Cloud TokenHub's dedicated Kimi usage guide covering kimi-k3/k2.7-code and thinking-mode parameters",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-tencent-tokenhub-kimi",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

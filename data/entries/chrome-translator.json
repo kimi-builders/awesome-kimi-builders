@@ -1,0 +1,15 @@
+{
+  "name": "Alexlee9898/chrome-translator",
+  "url": "https://github.com/Alexlee9898/chrome-translator",
+  "descriptionZh": "划词翻译 Chrome 扩展,翻译引擎首位推荐 Kimi(Moonshot K2.5),支持多服务切换",
+  "descriptionEn": "Chrome selection-translation extension recommending Kimi (Moonshot K2.5) as its preferred engine among several providers",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-chrome-translator",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

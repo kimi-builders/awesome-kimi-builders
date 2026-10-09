@@ -1,0 +1,15 @@
+{
+  "name": "dpolishuk/kimigram",
+  "url": "https://github.com/dpolishuk/kimigram",
+  "descriptionZh": "Telegram 与 Kimi Code 的桥接 sidecar,把 TG 消息转发为 CLI 提示词并回推执行通知",
+  "descriptionEn": "Telegram bridge sidecar for Kimi Code, forwarding chat messages as CLI prompts with event notifications",
+  "category": "cli-agents",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimigram",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

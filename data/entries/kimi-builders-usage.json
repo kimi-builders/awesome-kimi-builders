@@ -1,0 +1,17 @@
+{
+  "name": "kimi-builders/usage",
+  "url": "https://github.com/kimibuilders/usage-cli",
+  "descriptionZh": "多工具 AI 编程用量采集器:本地解析日志,只上传统计字段,支持 Kimi Code / Claude Code / Codex 等。",
+  "descriptionEn": "Multi-tool AI-coding usage collector: parses logs locally, uploads metrics only.",
+  "category": "cli-agents",
+  "agents": [
+    "kimi",
+    "claude-code",
+    "codex"
+  ],
+  "official": false,
+  "protocolVersion": 1,
+  "id": "entry-kimi-builders-usage",
+  "publication": "pending",
+  "officialSubject": "community"
+}

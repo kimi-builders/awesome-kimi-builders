@@ -1,0 +1,15 @@
+{
+  "name": "bene-bosco/kimi-api-mcp",
+  "url": "https://github.com/bene-bosco/kimi-api-mcp",
+  "descriptionZh": "直调 Moonshot API 的 MCP 服务器,免装 CLI,提供思考/评审/测试等工具",
+  "descriptionEn": "MCP server calling the Moonshot API directly without the CLI, exposing think/review/test tools",
+  "category": "integrations",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-api-mcp",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

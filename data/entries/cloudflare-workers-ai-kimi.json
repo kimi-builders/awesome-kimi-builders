@@ -1,0 +1,13 @@
+{
+  "name": "Cloudflare Workers AI Kimi K2.7 Code",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-06-12-kimi-k2-7-code-workers-ai",
+  "descriptionZh": "Cloudflare Workers AI 上线 kimi-k2.7-code 的官方公告,含模型 ID、定价与迁移说明",
+  "descriptionEn": "Official changelog for Kimi K2.7 Code on Cloudflare Workers AI with model ID, pricing and migration notes",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-cloudflare-workers-ai-kimi",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

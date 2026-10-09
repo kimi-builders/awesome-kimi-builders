@@ -1,0 +1,13 @@
+{
+  "name": "阿里云百炼 Kimi 模型服务",
+  "url": "https://help.aliyun.com/zh/model-studio/kimi-api",
+  "descriptionZh": "阿里云百炼平台的 Kimi 系列模型专属 API 文档,含多协议接入、功能矩阵与计费说明",
+  "descriptionEn": "Alibaba Cloud Model Studio's dedicated docs for the Kimi model family, with multi-protocol access and billing details",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-aliyun-bailian-kimi",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

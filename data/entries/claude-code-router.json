@@ -1,0 +1,16 @@
+{
+  "name": "musistudio/claude-code-router",
+  "url": "https://github.com/musistudio/claude-code-router",
+  "descriptionZh": "Claude Code 的本地模型路由网关,Kimi 官方赞助,内置 Kimi 订阅与 API 一键接入",
+  "descriptionEn": "Local model routing gateway for Claude Code, sponsored by Kimi, with one-click Kimi subscription and API presets",
+  "category": "integrations",
+  "agents": [
+    "claude-code",
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-claude-code-router",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

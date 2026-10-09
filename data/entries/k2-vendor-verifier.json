@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/K2-Vendor-Verifier",
+  "url": "https://github.com/MoonshotAI/K2-Vendor-Verifier",
+  "descriptionZh": "官方工具,校验各 vendor 部署的 Kimi K2 系列 API 的工具调用精度并公布榜单",
+  "descriptionEn": "Official tool benchmarking tool-calling accuracy of Kimi K2-series APIs across vendors",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-k2-vendor-verifier",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

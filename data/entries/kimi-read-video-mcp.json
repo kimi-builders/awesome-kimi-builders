@@ -1,0 +1,15 @@
+{
+  "name": "hlf20010508/kimi-read-video-mcp",
+  "url": "https://github.com/hlf20010508/kimi-read-video-mcp",
+  "descriptionZh": "极简 MCP 服务,把本地视频送入 Kimi 做视频理解,支持 Moonshot 与 Kimi Coding 双入口",
+  "descriptionEn": "Minimal MCP server for video understanding via Kimi, supporting both Moonshot and Kimi Coding endpoints",
+  "category": "integrations",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-read-video-mcp",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

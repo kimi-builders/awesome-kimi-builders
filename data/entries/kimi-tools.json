@@ -1,0 +1,16 @@
+{
+  "name": "fl4p/kimi-tools",
+  "url": "https://github.com/fl4p/kimi-tools",
+  "descriptionZh": "为 Kimi K2 系调优的编码 agent 系统提示词,附 SWE-bench Verified A/B 评测数据",
+  "descriptionEn": "Coding-agent system prompts tuned for the Kimi K2 series, with SWE-bench Verified A/B evaluations",
+  "category": "learning",
+  "agents": [
+    "kimi",
+    "cline"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-tools",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

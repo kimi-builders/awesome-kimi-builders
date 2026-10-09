@@ -1,0 +1,13 @@
+{
+  "name": "Vercel AI SDK Moonshot Provider",
+  "url": "https://ai-sdk.dev/providers/ai-sdk-providers/moonshotai",
+  "descriptionZh": "Vercel AI SDK 官方 Moonshot provider 包,支持 Kimi K3 思考模式与推理历史等专属选项",
+  "descriptionEn": "Official Moonshot provider for Vercel AI SDK with Kimi-specific options such as thinking mode and reasoning history",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-ai-sdk-moonshotai",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

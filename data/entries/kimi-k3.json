@@ -1,0 +1,32 @@
+{
+  "name": "MoonshotAI/Kimi-K3",
+  "url": "https://github.com/MoonshotAI/Kimi-K3",
+  "descriptionZh": "Kimi K3 是 Moonshot AI 发布的开放权重多模态模型，官方仓库提供模型说明与部署资料。",
+  "descriptionEn": "Kimi K3 is Moonshot AI’s open-weight multimodal model; its official repository provides model and deployment documentation.",
+  "category": "official",
+  "agents": [],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-k3",
+  "publication": "published",
+  "officialSubject": "moonshot",
+  "kind": "other",
+  "scope": "base",
+  "author": {
+    "name": "MoonshotAI",
+    "url": "https://github.com/MoonshotAI"
+  },
+  "kimiEvidence": [
+    {
+      "url": "https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md",
+      "note": "The upstream repository identifies Kimi K3 as a Moonshot AI model and provides its model report."
+    }
+  ],
+  "review": {
+    "checkedAt": "2026-10-09",
+    "revision": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+    "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+  },
+  "bodyZh": "## 是什么\nKimi K3 是 Moonshot AI 发布的开放权重多模态模型，适合接入 Kimi 或评估模型部署的开发者。官方仓库提供技术报告与使用资料。\n\n## 快速使用\n1. 打开官方仓库的模型使用部分。\n2. 选择其中说明的托管 API 或自托管方式。\n3. 按对应文档完成认证、环境配置与模型调用。\n\n## 前提与限制\n托管调用需要所选供应商的访问权限；自托管需要上游指定的硬件与软件。部署前阅读模型许可证。本条目仅核对文档，不代表运行验证。\n\n## 出处\n\n[上游 README](https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md)，核对版本 `3cb39dfd32e51c3328e2e4b4af21341247d06c43`。\n",
+  "bodyEn": "## What it is\nKimi K3 is an open-weight model from Moonshot AI for developers integrating Kimi or evaluating model deployment. The repository provides the model report and usage documentation.\n\n## Quick start\n1. Open the official repository and its model usage section.\n2. Choose the documented hosted API or self-hosting route.\n3. Follow that route’s authentication, environment and model instructions.\n\n## Requirements and limits\nHosted use requires the selected provider’s access; self-hosting requires the hardware and software specified upstream. Check the model license before deployment. This entry verifies documentation, not runtime results.\n\n## Source\n\n[Upstream README](https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md), checked revision `3cb39dfd32e51c3328e2e4b4af21341247d06c43`.\n"
+}

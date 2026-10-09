@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/Kimi-K2.5",
+  "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+  "descriptionZh": "Kimi K2.5 原生多模态 agentic 模型官方仓库,256K 上下文",
+  "descriptionEn": "Official Kimi K2.5 native multimodal agentic model repo with 256K context",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-k2-5",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "zhangweiii/skills(kimi-web-search)",
+  "url": "https://github.com/zhangweiii/skills",
+  "descriptionZh": "基于 Moonshot API 的联网搜索/抓取技能,可装入 Claude Code、Codex、Kimi CLI 等",
+  "descriptionEn": "Web search and fetch skill built on the Moonshot API, loadable into Claude Code, Codex, Kimi CLI and more",
+  "category": "learning",
+  "agents": [
+    "kimi",
+    "claude-code",
+    "codex"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-web-search-skill",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

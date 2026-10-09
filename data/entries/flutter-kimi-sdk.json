@@ -1,0 +1,15 @@
+{
+  "name": "epatel/flutter_kimi_sdk",
+  "url": "https://github.com/epatel/flutter_kimi_sdk",
+  "descriptionZh": "Dart/Flutter 版 Kimi Code 客户端,经 ACP 协议驱动 kimi acp,含类型化流式事件",
+  "descriptionEn": "Dart/Flutter client for Kimi Code driving kimi acp over the Agent Client Protocol with typed streaming events",
+  "category": "sdks",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-flutter-kimi-sdk",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

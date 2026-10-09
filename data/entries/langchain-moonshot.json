@@ -1,0 +1,16 @@
+{
+  "name": "ArcadiaLin/langchain-moonshot",
+  "url": "https://github.com/ArcadiaLin/langchain-moonshot",
+  "descriptionZh": "LangChain 的 Moonshot 集成包,提供 ChatMoonshot,支持 reasoning_content 与提示缓存",
+  "descriptionEn": "LangChain integration package for Moonshot models, providing ChatMoonshot with reasoning_content and prompt caching",
+  "category": "sdks",
+  "agents": [
+    "kimi"
+  ],
+  "homepage": "https://pypi.org/project/langchain-moonshot/",
+  "protocolVersion": 1,
+  "id": "entry-langchain-moonshot",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dnnyngyen/kimi-agent-internals",
+  "url": "https://github.com/dnnyngyen/kimi-agent-internals",
+  "descriptionZh": "Kimi 各类 agent(OK Computer 等)的系统提示词、工具 schema 与官方 skills 源码提取分析仓",
+  "descriptionEn": "Extracted system prompts, tool schemas and official skills source from Kimi's agents such as OK Computer",
+  "category": "learning",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-agent-internals",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

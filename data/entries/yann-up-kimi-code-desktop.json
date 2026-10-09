@@ -1,0 +1,34 @@
+{
+  "name": "Yann-Up/kimi-code-desktop",
+  "url": "https://github.com/Yann-Up/kimi-code-desktop",
+  "descriptionZh": "Yann-Up 的桌面客户端将本地 Kimi Code CLI 的 Web 界面嵌入原生窗口。",
+  "descriptionEn": "Yann-Up’s desktop client embeds the local Kimi Code CLI web interface in a native window.",
+  "category": "cli-agents",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-yann-up-kimi-code-desktop",
+  "publication": "published",
+  "officialSubject": "none",
+  "official": false,
+  "kind": "app",
+  "scope": "eco",
+  "author": {
+    "name": "Yann-Up",
+    "url": "https://github.com/Yann-Up"
+  },
+  "kimiEvidence": [
+    {
+      "url": "https://github.com/Yann-Up/kimi-code-desktop/blob/fd66c5c88e66b70becae2077a6a75ab318af1a51/README.md",
+      "note": "The upstream README documents embedding the local Kimi Code CLI web interface in a desktop shell."
+    }
+  ],
+  "review": {
+    "checkedAt": "2026-10-09",
+    "revision": "fd66c5c88e66b70becae2077a6a75ab318af1a51",
+    "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+  },
+  "bodyZh": "## 是什么\nYann-Up 维护的社区桌面客户端，适合偏好窗口操作的 Kimi Code 用户。它嵌入本地 Kimi Code CLI 的 Web 界面，与 CLI 是独立项目。\n\n## 快速使用\n1. 阅读上游平台与安装说明。\n2. 在仓库 Releases 页面选择支持的平台版本。\n3. 按首次启动说明配置 CLI 并完成认证。\n\n## 前提与限制\n应用依赖本地 CLI 及版本兼容性，升级前检查发布说明。本条目核对了文档，未安装或实测桌面软件。\n\n## 出处\n\n[上游 README](https://github.com/Yann-Up/kimi-code-desktop/blob/fd66c5c88e66b70becae2077a6a75ab318af1a51/README.md)，核对版本 `fd66c5c88e66b70becae2077a6a75ab318af1a51`。\n",
+  "bodyEn": "## What it is\nYann-Up maintains this community desktop client for people who prefer a window to a terminal. It embeds the local Kimi Code CLI web interface; it is a separate project from the CLI.\n\n## Quick start\n1. Read the upstream platform and installation notes.\n2. Obtain a release for a supported platform from the repository’s Releases page.\n3. Follow the first-launch CLI setup and authentication instructions.\n\n## Requirements and limits\nThe application depends on the local CLI and its compatibility. Check release notes before upgrading. Documentation was reviewed; desktop installation was not tested here.\n\n## Source\n\n[Upstream README](https://github.com/Yann-Up/kimi-code-desktop/blob/fd66c5c88e66b70becae2077a6a75ab318af1a51/README.md), checked revision `fd66c5c88e66b70becae2077a6a75ab318af1a51`.\n"
+}

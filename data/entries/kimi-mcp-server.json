@@ -1,0 +1,17 @@
+{
+  "name": "x51xxx/kimi-mcp-server",
+  "url": "https://github.com/x51xxx/kimi-mcp-server",
+  "descriptionZh": "MCP 服务器,把 Claude Code/Cursor 等客户端桥接到 Kimi Code CLI,提供十余个工具",
+  "descriptionEn": "MCP server bridging Claude Code, Cursor and other clients to the Kimi Code CLI with a dozen-plus tools",
+  "category": "integrations",
+  "agents": [
+    "kimi",
+    "claude-code",
+    "cursor"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-mcp-server",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "min9lin9/kimi-agent-swarm-skill",
+  "url": "https://github.com/min9lin9/kimi-agent-swarm-skill",
+  "descriptionZh": "Kimi Agent Swarm 风格的提示词契约与路由技能包,含 Codex 与 Kimi Code 两个版本",
+  "descriptionEn": "Kimi Agent Swarm-style prompt-contract and routing skills, in Codex and Kimi Code CLI variants",
+  "category": "learning",
+  "agents": [
+    "kimi",
+    "codex"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-agent-swarm-skill",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

@@ -1,0 +1,34 @@
+{
+  "name": "wjt0321/kimi-code-desktop",
+  "url": "https://github.com/wjt0321/kimi-code-desktop",
+  "descriptionZh": "wjt0321 的 Windows 桌面客户端通过本机已安装的 Kimi Code CLI 提供窗口操作。",
+  "descriptionEn": "wjt0321’s Windows desktop client provides a window for the locally installed Kimi Code CLI.",
+  "category": "cli-agents",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-wjt0321-kimi-code-desktop",
+  "publication": "published",
+  "officialSubject": "none",
+  "official": false,
+  "kind": "app",
+  "scope": "eco",
+  "author": {
+    "name": "wjt0321",
+    "url": "https://github.com/wjt0321"
+  },
+  "kimiEvidence": [
+    {
+      "url": "https://github.com/wjt0321/kimi-code-desktop/blob/00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee/README.md",
+      "note": "The upstream README documents a Windows client using the locally installed Kimi Code CLI."
+    }
+  ],
+  "review": {
+    "checkedAt": "2026-10-09",
+    "revision": "00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee",
+    "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+  },
+  "bodyZh": "## 是什么\nwjt0321 维护的社区 Windows 客户端，通过本机已安装的 Kimi Code CLI 提供窗口操作。它与 Yann-Up 的同名仓库是不同项目。\n\n## 快速使用\n1. 阅读上游 Windows 安装及 CLI 兼容说明。\n2. 获取仓库指向的桌面发布版本。\n3. 按说明检测本地 CLI 并启动服务。\n\n## 前提与限制\n使用上游发布版本支持的 CLI；认证由本地 CLI 处理。本条目仅核对 README，未安装或实测软件。\n\n## 出处\n\n[上游 README](https://github.com/wjt0321/kimi-code-desktop/blob/00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee/README.md)，核对版本 `00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee`。\n",
+  "bodyEn": "## What it is\nwjt0321 maintains a community Windows client for Kimi Code CLI. It uses the installed local CLI and is distinct from Yann-Up’s repository with the same project name.\n\n## Quick start\n1. Read the upstream Windows installation and CLI compatibility notes.\n2. Get the desktop release linked by the repository.\n3. Follow its local CLI detection and startup instructions.\n\n## Requirements and limits\nUse a CLI version supported by the upstream release. Authentication belongs to the local CLI. This entry was checked against the README; installation and behavior were not tested here.\n\n## Source\n\n[Upstream README](https://github.com/wjt0321/kimi-code-desktop/blob/00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee/README.md), checked revision `00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee`.\n"
+}

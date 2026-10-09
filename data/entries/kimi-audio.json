@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/Kimi-Audio",
+  "url": "https://github.com/MoonshotAI/Kimi-Audio",
+  "descriptionZh": "Kimi-Audio 开源音频基础模型,覆盖语音识别、音频理解与语音对话",
+  "descriptionEn": "Open-source audio foundation model for speech recognition, audio understanding and spoken dialogue",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-audio",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

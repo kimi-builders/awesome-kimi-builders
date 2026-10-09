@@ -1,0 +1,16 @@
+{
+  "name": "raine/claude-code-proxy",
+  "url": "https://github.com/raine/claude-code-proxy",
+  "descriptionZh": "Rust 编写的本地 Anthropic 兼容代理,让 Claude Code 走 Kimi Code 订阅后端",
+  "descriptionEn": "Rust local Anthropic-compatible proxy letting Claude Code run on a Kimi Code subscription backend",
+  "category": "integrations",
+  "agents": [
+    "claude-code",
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-claude-code-proxy",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

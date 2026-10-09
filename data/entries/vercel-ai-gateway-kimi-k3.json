@@ -1,0 +1,13 @@
+{
+  "name": "Vercel AI Gateway Kimi K3",
+  "url": "https://vercel.com/ai-gateway/models/kimi-k3",
+  "descriptionZh": "Vercel AI Gateway 的 kimi-k3 模型页,可路由至多家供应商并自动故障转移",
+  "descriptionEn": "Vercel AI Gateway's kimi-k3 model page routing across multiple providers with automatic failover",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-vercel-ai-gateway-kimi-k3",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

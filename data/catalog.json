@@ -1,0 +1,196 @@
+{
+  "protocolVersion": 1,
+  "repository": "kimi-builders/awesome-kimi-builders",
+  "entryCount": 52,
+  "pendingIds": [
+    "entry-agentkimi",
+    "entry-ai-sdk-moonshotai",
+    "entry-aliyun-bailian-kimi",
+    "entry-chatgpt-on-wechat",
+    "entry-checkpoint-engine",
+    "entry-chrome-translator",
+    "entry-claude-code-proxy",
+    "entry-claude-code-router",
+    "entry-cli-in-wechat",
+    "entry-cloudflare-workers-ai-kimi",
+    "entry-flutter-kimi-sdk",
+    "entry-k2-vendor-verifier",
+    "entry-kimi-actions",
+    "entry-kimi-agent-internals",
+    "entry-kimi-agent-sdk",
+    "entry-kimi-agent-swarm-skill",
+    "entry-kimi-api-docs",
+    "entry-kimi-api-mcp",
+    "entry-kimi-audio",
+    "entry-kimi-builders-usage",
+    "entry-kimi-code-zed-extension",
+    "entry-kimi-cookbook",
+    "entry-kimi-k2",
+    "entry-kimi-k2-5",
+    "entry-kimi-mcp-server",
+    "entry-kimi-read-image-mcp",
+    "entry-kimi-read-video-mcp",
+    "entry-kimi-skill",
+    "entry-kimi-tools",
+    "entry-kimi-vl",
+    "entry-kimi-web-search-skill",
+    "entry-kimiclaw",
+    "entry-kimigram",
+    "entry-langchain-moonshot",
+    "entry-litellm-moonshot",
+    "entry-moonpalace",
+    "entry-nerdbot",
+    "entry-new-api",
+    "entry-nvidia-nim-kimi-k2-6",
+    "entry-one-agent-sdk",
+    "entry-one-api",
+    "entry-openrouter-moonshotai",
+    "entry-relay-ai",
+    "entry-research-expert-panel",
+    "entry-system-prompts-leaks",
+    "entry-tencent-tokenhub-kimi",
+    "entry-vercel-ai-gateway-kimi-k3",
+    "entry-wechat-bot"
+  ],
+  "entries": [
+    {
+      "name": "Kimi Code",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "descriptionZh": "Kimi Code CLI 是 Moonshot AI 的终端编码 Agent，可通过 Kimi 模型读取、修改代码并使用工具。",
+      "descriptionEn": "Kimi Code CLI is Moonshot AI’s terminal coding agent, using Kimi models to read and edit code and use tools.",
+      "category": "official",
+      "agents": [
+        "kimi"
+      ],
+      "official": true,
+      "protocolVersion": 1,
+      "id": "entry-kimi-code",
+      "publication": "published",
+      "officialSubject": "moonshot",
+      "kind": "cli",
+      "scope": "eco",
+      "author": {
+        "name": "MoonshotAI",
+        "url": "https://github.com/MoonshotAI"
+      },
+      "kimiEvidence": [
+        {
+          "url": "https://github.com/MoonshotAI/kimi-code/blob/419aced0e97fa04b75f8f71b089e1667f6de6d0a/README.md",
+          "note": "The upstream README identifies Moonshot AI as the CLI maintainer and documents Kimi model support."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-10-09",
+        "revision": "419aced0e97fa04b75f8f71b089e1667f6de6d0a",
+        "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+      },
+      "bodyZh": "## 是什么\nKimi Code CLI 是面向开发者的终端 Agent，由 Moonshot AI 维护，直接支持 Kimi 模型，可在项目目录中读取与修改代码并使用工具。\n\n## 快速使用\n1. 按[上游安装指南](https://moonshotai.github.io/kimi-code/en/guides/getting-started)安装。\n2. 进入项目目录，运行 `kimi`。\n3. 通过 `/login` 选择上游文档支持的认证方式，再询问项目内容。\n\n## 前提与限制\nWindows 需要 Git for Windows。审核工具操作，把凭据保留在本机。本条目仅核对文档，未安装或实测软件。\n\n## 出处\n\n[上游 README](https://github.com/MoonshotAI/kimi-code/blob/419aced0e97fa04b75f8f71b089e1667f6de6d0a/README.md)，核对版本 `419aced0e97fa04b75f8f71b089e1667f6de6d0a`。\n",
+      "bodyEn": "## What it is\nKimi Code CLI is a terminal agent for developers working in a project directory. Moonshot AI maintains it, and Kimi models are supported directly.\n\n## Quick start\n1. Follow the [upstream installation guide](https://moonshotai.github.io/kimi-code/en/guides/getting-started).\n2. Open a project directory and run `kimi`.\n3. Use `/login` to choose the authentication method documented upstream, then ask about the project.\n\n## Requirements and limits\nWindows users need Git for Windows as documented upstream. Review requested tool actions and keep credentials local. This entry was checked against documentation; the software was not installed or tested here.\n\n## Source\n\n[Upstream README](https://github.com/MoonshotAI/kimi-code/blob/419aced0e97fa04b75f8f71b089e1667f6de6d0a/README.md), checked revision `419aced0e97fa04b75f8f71b089e1667f6de6d0a`.\n",
+      "sourceFile": "data/entries/kimi-code.json"
+    },
+    {
+      "name": "MoonshotAI/Kimi-K3",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "descriptionZh": "Kimi K3 是 Moonshot AI 发布的开放权重多模态模型，官方仓库提供模型说明与部署资料。",
+      "descriptionEn": "Kimi K3 is Moonshot AI’s open-weight multimodal model; its official repository provides model and deployment documentation.",
+      "category": "official",
+      "agents": [],
+      "official": true,
+      "protocolVersion": 1,
+      "id": "entry-kimi-k3",
+      "publication": "published",
+      "officialSubject": "moonshot",
+      "kind": "other",
+      "scope": "base",
+      "author": {
+        "name": "MoonshotAI",
+        "url": "https://github.com/MoonshotAI"
+      },
+      "kimiEvidence": [
+        {
+          "url": "https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md",
+          "note": "The upstream repository identifies Kimi K3 as a Moonshot AI model and provides its model report."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-10-09",
+        "revision": "3cb39dfd32e51c3328e2e4b4af21341247d06c43",
+        "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+      },
+      "bodyZh": "## 是什么\nKimi K3 是 Moonshot AI 发布的开放权重多模态模型，适合接入 Kimi 或评估模型部署的开发者。官方仓库提供技术报告与使用资料。\n\n## 快速使用\n1. 打开官方仓库的模型使用部分。\n2. 选择其中说明的托管 API 或自托管方式。\n3. 按对应文档完成认证、环境配置与模型调用。\n\n## 前提与限制\n托管调用需要所选供应商的访问权限；自托管需要上游指定的硬件与软件。部署前阅读模型许可证。本条目仅核对文档，不代表运行验证。\n\n## 出处\n\n[上游 README](https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md)，核对版本 `3cb39dfd32e51c3328e2e4b4af21341247d06c43`。\n",
+      "bodyEn": "## What it is\nKimi K3 is an open-weight model from Moonshot AI for developers integrating Kimi or evaluating model deployment. The repository provides the model report and usage documentation.\n\n## Quick start\n1. Open the official repository and its model usage section.\n2. Choose the documented hosted API or self-hosting route.\n3. Follow that route’s authentication, environment and model instructions.\n\n## Requirements and limits\nHosted use requires the selected provider’s access; self-hosting requires the hardware and software specified upstream. Check the model license before deployment. This entry verifies documentation, not runtime results.\n\n## Source\n\n[Upstream README](https://github.com/MoonshotAI/Kimi-K3/blob/3cb39dfd32e51c3328e2e4b4af21341247d06c43/README.md), checked revision `3cb39dfd32e51c3328e2e4b4af21341247d06c43`.\n",
+      "sourceFile": "data/entries/kimi-k3.json"
+    },
+    {
+      "name": "wjt0321/kimi-code-desktop",
+      "url": "https://github.com/wjt0321/kimi-code-desktop",
+      "descriptionZh": "wjt0321 的 Windows 桌面客户端通过本机已安装的 Kimi Code CLI 提供窗口操作。",
+      "descriptionEn": "wjt0321’s Windows desktop client provides a window for the locally installed Kimi Code CLI.",
+      "category": "cli-agents",
+      "agents": [
+        "kimi"
+      ],
+      "protocolVersion": 1,
+      "id": "entry-wjt0321-kimi-code-desktop",
+      "publication": "published",
+      "officialSubject": "none",
+      "official": false,
+      "kind": "app",
+      "scope": "eco",
+      "author": {
+        "name": "wjt0321",
+        "url": "https://github.com/wjt0321"
+      },
+      "kimiEvidence": [
+        {
+          "url": "https://github.com/wjt0321/kimi-code-desktop/blob/00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee/README.md",
+          "note": "The upstream README documents a Windows client using the locally installed Kimi Code CLI."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-10-09",
+        "revision": "00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee",
+        "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+      },
+      "bodyZh": "## 是什么\nwjt0321 维护的社区 Windows 客户端，通过本机已安装的 Kimi Code CLI 提供窗口操作。它与 Yann-Up 的同名仓库是不同项目。\n\n## 快速使用\n1. 阅读上游 Windows 安装及 CLI 兼容说明。\n2. 获取仓库指向的桌面发布版本。\n3. 按说明检测本地 CLI 并启动服务。\n\n## 前提与限制\n使用上游发布版本支持的 CLI；认证由本地 CLI 处理。本条目仅核对 README，未安装或实测软件。\n\n## 出处\n\n[上游 README](https://github.com/wjt0321/kimi-code-desktop/blob/00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee/README.md)，核对版本 `00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee`。\n",
+      "bodyEn": "## What it is\nwjt0321 maintains a community Windows client for Kimi Code CLI. It uses the installed local CLI and is distinct from Yann-Up’s repository with the same project name.\n\n## Quick start\n1. Read the upstream Windows installation and CLI compatibility notes.\n2. Get the desktop release linked by the repository.\n3. Follow its local CLI detection and startup instructions.\n\n## Requirements and limits\nUse a CLI version supported by the upstream release. Authentication belongs to the local CLI. This entry was checked against the README; installation and behavior were not tested here.\n\n## Source\n\n[Upstream README](https://github.com/wjt0321/kimi-code-desktop/blob/00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee/README.md), checked revision `00f41ee1578f2e03e2192557c8b4bb9f84b9c2ee`.\n",
+      "sourceFile": "data/entries/wjt0321-kimi-code-desktop.json"
+    },
+    {
+      "name": "Yann-Up/kimi-code-desktop",
+      "url": "https://github.com/Yann-Up/kimi-code-desktop",
+      "descriptionZh": "Yann-Up 的桌面客户端将本地 Kimi Code CLI 的 Web 界面嵌入原生窗口。",
+      "descriptionEn": "Yann-Up’s desktop client embeds the local Kimi Code CLI web interface in a native window.",
+      "category": "cli-agents",
+      "agents": [
+        "kimi"
+      ],
+      "protocolVersion": 1,
+      "id": "entry-yann-up-kimi-code-desktop",
+      "publication": "published",
+      "officialSubject": "none",
+      "official": false,
+      "kind": "app",
+      "scope": "eco",
+      "author": {
+        "name": "Yann-Up",
+        "url": "https://github.com/Yann-Up"
+      },
+      "kimiEvidence": [
+        {
+          "url": "https://github.com/Yann-Up/kimi-code-desktop/blob/fd66c5c88e66b70becae2077a6a75ab318af1a51/README.md",
+          "note": "The upstream README documents embedding the local Kimi Code CLI web interface in a desktop shell."
+        }
+      ],
+      "review": {
+        "checkedAt": "2026-10-09",
+        "revision": "fd66c5c88e66b70becae2077a6a75ab318af1a51",
+        "note": "Public repository and README checked; bilingual editorial summary reviewed. No installation or runtime validation."
+      },
+      "bodyZh": "## 是什么\nYann-Up 维护的社区桌面客户端，适合偏好窗口操作的 Kimi Code 用户。它嵌入本地 Kimi Code CLI 的 Web 界面，与 CLI 是独立项目。\n\n## 快速使用\n1. 阅读上游平台与安装说明。\n2. 在仓库 Releases 页面选择支持的平台版本。\n3. 按首次启动说明配置 CLI 并完成认证。\n\n## 前提与限制\n应用依赖本地 CLI 及版本兼容性，升级前检查发布说明。本条目核对了文档，未安装或实测桌面软件。\n\n## 出处\n\n[上游 README](https://github.com/Yann-Up/kimi-code-desktop/blob/fd66c5c88e66b70becae2077a6a75ab318af1a51/README.md)，核对版本 `fd66c5c88e66b70becae2077a6a75ab318af1a51`。\n",
+      "bodyEn": "## What it is\nYann-Up maintains this community desktop client for people who prefer a window to a terminal. It embeds the local Kimi Code CLI web interface; it is a separate project from the CLI.\n\n## Quick start\n1. Read the upstream platform and installation notes.\n2. Obtain a release for a supported platform from the repository’s Releases page.\n3. Follow the first-launch CLI setup and authentication instructions.\n\n## Requirements and limits\nThe application depends on the local CLI and its compatibility. Check release notes before upgrading. Documentation was reviewed; desktop installation was not tested here.\n\n## Source\n\n[Upstream README](https://github.com/Yann-Up/kimi-code-desktop/blob/fd66c5c88e66b70becae2077a6a75ab318af1a51/README.md), checked revision `fd66c5c88e66b70becae2077a6a75ab318af1a51`.\n",
+      "sourceFile": "data/entries/yann-up-kimi-code-desktop.json"
+    }
+  ],
+  "digest": "c3c0e2c8bc61980d52a201e961c7f49332a613aac46c5d202f3ab5d5cf7c11eb"
+}

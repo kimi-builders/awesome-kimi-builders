@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/kimi-agent-sdk",
+  "url": "https://github.com/MoonshotAI/kimi-agent-sdk",
+  "descriptionZh": "官方 Kimi Agent SDK,提供 Go/Node.js/Python 客户端,以编程方式调用 Kimi CLI 运行时",
+  "descriptionEn": "Official Kimi Agent SDK with Go, Node.js and Python clients for programmatic access to the Kimi CLI runtime",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-agent-sdk",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

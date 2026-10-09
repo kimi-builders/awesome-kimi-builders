@@ -1,0 +1,15 @@
+{
+  "name": "smolcars/nerdbot",
+  "url": "https://github.com/smolcars/nerdbot",
+  "descriptionZh": "Telegram 群聊机器人,默认 AI 提供方为 Moonshot(Kimi K2),支持思考模式与联网搜索",
+  "descriptionEn": "Telegram group chat bot using Moonshot (Kimi K2) as its default AI provider, with thinking mode and web search",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-nerdbot",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}

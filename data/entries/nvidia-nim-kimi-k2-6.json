@@ -1,0 +1,13 @@
+{
+  "name": "NVIDIA NIM moonshotai/kimi-k2.6",
+  "url": "https://docs.api.nvidia.com/nim/reference/moonshotai-kimi-k2-6",
+  "descriptionZh": "NVIDIA NIM 的 moonshotai/kimi-k2.6 模型卡与 API 参考,标注可商用",
+  "descriptionEn": "NVIDIA NIM model card and API reference for moonshotai/kimi-k2.6, cleared for commercial use",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-nvidia-nim-kimi-k2-6",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

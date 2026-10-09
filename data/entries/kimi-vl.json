@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/Kimi-VL",
+  "url": "https://github.com/MoonshotAI/Kimi-VL",
+  "descriptionZh": "Kimi-VL 开源 MoE 视觉语言模型(16B 总参/3B 激活),含 Instruct 与 Thinking 变体",
+  "descriptionEn": "Open-source MoE vision-language model (16B total/3B active) with Instruct and Thinking variants",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-vl",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

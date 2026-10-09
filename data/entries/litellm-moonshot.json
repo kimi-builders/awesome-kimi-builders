@@ -1,0 +1,13 @@
+{
+  "name": "LiteLLM Moonshot Provider",
+  "url": "https://docs.litellm.ai/docs/providers/moonshot",
+  "descriptionZh": "LiteLLM 官方 Moonshot provider,统一代理 Kimi 全系模型并自动处理其参数限制",
+  "descriptionEn": "LiteLLM's official Moonshot provider routing the Kimi model family with automatic handling of Moonshot-specific limits",
+  "category": "integrations",
+  "agents": [],
+  "protocolVersion": 1,
+  "id": "entry-litellm-moonshot",
+  "publication": "pending",
+  "officialSubject": "vendor",
+  "official": false
+}

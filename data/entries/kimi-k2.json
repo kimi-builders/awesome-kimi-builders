@@ -1,0 +1,15 @@
+{
+  "name": "MoonshotAI/Kimi-K2",
+  "url": "https://github.com/MoonshotAI/Kimi-K2",
+  "descriptionZh": "Kimi K2 模型官方仓库:1T 总参/32B 激活的 MoE 模型,含技术报告与部署指南",
+  "descriptionEn": "Official Kimi K2 repo: 1T-param/32B-active MoE model with tech report and deployment guides",
+  "category": "official",
+  "agents": [
+    "kimi"
+  ],
+  "official": true,
+  "protocolVersion": 1,
+  "id": "entry-kimi-k2",
+  "publication": "pending",
+  "officialSubject": "moonshot"
+}

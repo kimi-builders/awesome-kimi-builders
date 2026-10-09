@@ -1,0 +1,15 @@
+{
+  "name": "hlf20010508/kimi-read-image-mcp",
+  "url": "https://github.com/hlf20010508/kimi-read-image-mcp",
+  "descriptionZh": "极简 MCP 服务,把本地图片送入 Kimi 兼容端点做图像分析",
+  "descriptionEn": "Minimal MCP server sending local images to Kimi's vision-capable endpoint for image analysis",
+  "category": "integrations",
+  "agents": [
+    "kimi"
+  ],
+  "protocolVersion": 1,
+  "id": "entry-kimi-read-image-mcp",
+  "publication": "pending",
+  "officialSubject": "none",
+  "official": false
+}
