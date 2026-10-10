@@ -1,0 +1,45 @@
+# editor
+.idea
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment; keep safe configuration examples versioned
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+!.env.*.template
+
+# Local tooling dependencies and caches
+node_modules/
+/.cache/
+.eslintcache
+
+# Local development documents, review reports and evidence
+/reports/
+/audit/
+/output/
+/local-dev-docs/
+/data/initial-review.json
+
+# Browser automation and test output
+.playwright/
+.playwright-cli/
+/test-results/
+/playwright-report/
+/coverage/
+
+# Temporary files and logs
+/tmp/
+/temp/
+*.log
+*.log.*
+*.pid
+*.pid.lock
+*.swp
+*.swo
+*~
