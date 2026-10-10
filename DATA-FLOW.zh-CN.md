@@ -25,15 +25,26 @@ PR 校验只检查结构，不证明内容事实或批准上线。正式 GitHub 
 `community`、`vendor`、`none`，社区维护或供应商官方均不代表 Moonshot 背书。
 待核实条目保留原始资料，公开 README 清单及可发布内容不包含它们。
 
-发布条目必须逐项明确审核 `kind` 与 `scope`：`base` 基于 Kimi、`eco` 面向 Kimi
-生态、`part` 有 Kimi 参与。`category` 仅用于仓库分组，不能推断 kind 或 scope。
-`kimiEvidence: [{url,note}]` 记录一手依据；`review: {checkedAt,revision,note}`
+发布条目必须逐项明确审核 `kind` 与一个 `scope`：`base`（以 Kimi 为基座，模型或
+API 支撑核心能力）、`eco`（为 Kimi 生态，明确服务相关用户、开发者或集成）、
+`part`（Kimi 参与构建）。满足任意一种关系即可；项目可以由任何 Agent、多个 Agent
+构建，也可以没有已记录的 Agent 参与。只有 `part` 要求 Kimi 参与开发的证据。
+`base` 和 `eco` 要求各自关系的证据，不要求 Kimi 辅助开发或 `kimi` Agent ID。
+策展重视有趣、能满足真实用户需求的项目；仅凭实用性不能证明 Kimi 关联。
+
+`scope` 保持单值。多种关系都已核实时，选择证据最充分的一种，其他关系写入正文与
+证据。`category` 仅用于仓库分组，不能推断 kind 或 scope。
+`kimiEvidence: [{url,note}]` 记录所选关系的一手依据，例如核心能力使用 Kimi API、
+有文档说明的 Kimi 兼容支持，或 Kimi 参与开发的记录。一种口径的证据不必同时证明
+另外两种口径。`review: {checkedAt,revision,note}`
 说明核对范围，不能暗示安装或实测。`bodyZh`、`bodyEn` 为条目内原创精简 Markdown，
 包括介绍与快速使用，直接展示在现有作品正文；双语共享作品 ID、支持、评论及分享。
 可选 `recommendation: {url,githubLogin}` 只记录真实已合并 PR；不能凭 GitHub
 身份伪造站内 user_id。未知推荐者保持未知。
-仓库项目的 agents 只记录有文档依据的 Agent 集成或参与；模型名称不能证明使用了
-某个编程 Agent。未知时使用空数组；界面表述为关联，不把它当成开发证明。
+仓库项目的 agents 只记录有文档依据的 Agent 集成或参与；模型名称或 API 使用不能
+证明使用了某个编程 Agent。没有已记录的 Agent 集成或参与时使用空数组。
+`agents` 不决定收录资格或 scope；界面表述为关联，不把它当成开发证明。
+这些说明澄清协议 v1，不新增字段、不改变发布状态，也不让待核实条目免于审核。
 
 Agent ID 必须与站点 `src/lib/agents.ts` 一致；所有条目严格结构校验，发布附加要求
 仅适用于 `published`。

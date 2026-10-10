@@ -34,10 +34,21 @@ or renaming a source file. `author: {name,url}` identifies the original author;
 endorsement. Pending entries retain original material and are excluded from public
 README lists and publishable payloads.
 
-Published entries require explicitly reviewed `kind` and `scope` (`base`: based on
-Kimi, `eco`: built for its ecosystem, `part`: built with Kimi participation).
-`category` organizes this repository only; it does not imply kind or scope.
-`kimiEvidence: [{url,note}]` records first-party support for the Kimi relationship.
+Published entries require explicitly reviewed `kind` and one `scope`: `base`
+(Kimi models or APIs power a core capability), `eco` (the project explicitly serves
+the Kimi ecosystem), or `part` (Kimi participated in development). Any one of these
+relationships is sufficient; projects may be built with any Agent, multiple Agents,
+or without a documented Agent. Only `part` requires evidence of Kimi's participation
+in development. `base` and `eco` require evidence of their own relationship, not
+Kimi-assisted development or a `kimi` Agent ID. Curation favors interesting projects
+that meet real user needs; usefulness alone does not establish a Kimi relationship.
+
+`scope` remains a single value. When several relationships are verified, choose the
+best-supported scope and explain the others in the body and evidence. `category`
+organizes this repository only; it does not imply kind or scope.
+`kimiEvidence: [{url,note}]` records first-party support for the chosen relationship,
+such as core Kimi API usage, documented Kimi compatibility, or a record of Kimi's
+development contribution. Evidence for one scope need not prove the other two.
 `review: {checkedAt,revision,note}` states what was checked, never implies the
 project was installed or tested. `bodyZh` and `bodyEn` store original, concise
 Markdown introductions and quick-start guidance inline in the entry. They render
@@ -46,8 +57,11 @@ Any optional `recommendation: {url,githubLogin}` must point to a real merged PR;
 it never manufactures a site user ID. Unknown provenance remains unknown.
 
 For repository imports, agent IDs identify documented Agent integrations or
-participation; a model name alone does not establish a coding Agent. Unknown
-participation uses an empty array. The UI calls this association, not build proof.
+participation; a model name or API use alone does not establish a coding Agent.
+When no Agent integration or participation is documented, use an empty array.
+`agents` does not determine eligibility or scope. The UI calls this association,
+not build proof. This guidance clarifies protocol v1; it adds no fields, changes no
+publication state, and does not qualify pending entries without review.
 
 The agent IDs exactly match the site's `src/lib/agents.ts`; a new ID requires a
 coordinated registry change. Structural validation is strict for all entries and

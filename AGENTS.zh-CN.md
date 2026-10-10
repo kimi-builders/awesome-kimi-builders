@@ -10,6 +10,25 @@
 站点 <https://kimi.builders/awesome> 的站外推荐数据以本仓库的 `data/entries/*.json` 为准;
 README 清单区由 `scripts/build-readme.mjs` 生成,**清单区禁止手改**。
 
+## 收录范围
+
+收集有趣、能满足真实用户需求的项目，并且有可核实的 Kimi 关联，满足以下口径中的
+**任意一个**即可：
+
+- `base` — 以 Kimi 为基座：Kimi 模型或 API 支撑项目的核心能力。
+- `eco` — 为 Kimi 生态：项目明确服务于 Kimi 用户、开发者或相关集成。
+- `part` — Kimi 参与构建：Kimi 参与了项目的开发过程。
+
+项目可以由任何 Agent、多个 Agent 构建，也可以没有已记录的 Agent 参与。
+**只有 `part` 要求 Kimi 参与构建；`base` 和 `eco` 不要求。** 后两种口径不要求
+`agents` 包含 `kimi`，也不要求提供 Kimi 辅助开发的证据。有趣和实用是策展方向，
+不能代替至少一种 Kimi 关联的证据。
+
+`scope` 保持单值：选择证据最充分的一种，其他已核实的关系写入正文与证据。
+`agents` 只记录有文档依据的 Agent 集成或参与，允许空数组。不能从模型／API 的使用
+推断使用了某个编程 Agent，也不能为了让条目符合收录条件而补填 Agent。
+证据示例见[条目结构说明](./data/README.zh-CN.md)。
+
 ## 目录结构
 
 ```text

@@ -2,14 +2,31 @@
 
 [中文](./README.zh-CN.md) · **English**
 
-A curated list of projects built with Kimi, maintained by the [kimi.builders](https://kimi.builders) community.
+A curated list of interesting, useful projects connected to Kimi, maintained by the
+[kimi.builders](https://kimi.builders) community.
 
 ## Inclusion rule
 
-**100%-built-by-Kimi is NOT required.** Projects count when Kimi participated, when they serve
-the Kimi ecosystem, or when Kimi is their base model — participating agents are tagged on each
-entry. We do not list abandoned or deprecated projects, however good they once were.
-Criteria and process: [CONTRIBUTING.md](./CONTRIBUTING.md).
+**Projects do not have to be built with Kimi.** They may be built with any Agent,
+with several Agents, or without an Agent. We look for interesting projects that
+meet real user needs and have a verifiable connection to **at least one** of these scopes:
+
+| Scope | What qualifies | Does Kimi need to help build it? |
+| --- | --- | --- |
+| **Built on Kimi** (`base`) | The project's core functionality uses Kimi models or APIs. | No; any development tools are welcome. |
+| **For the Kimi ecosystem** (`eco`) | Tools, integrations, SDKs, skills or resources explicitly serving Kimi users or developers. | No; its ecosystem connection is what matters. |
+| **Kimi helped build** (`part`) | Kimi models or Agents took part in development. | Yes, but partial participation is enough; the finished project need not use Kimi at runtime. |
+
+These are alternatives, not three requirements to meet together. For example, a
+Codex-built app using the Kimi API may qualify under `base`, while a Claude Code-built
+Kimi integration may qualify under `eco`. These are illustrative examples, not new listings.
+
+Agent tags record documented integrations or participation; they are not an
+admission requirement or proof that Kimi wrote the project. Unknown Agent information
+may remain empty. Interesting projects still need a concrete Kimi connection;
+we do not list abandoned or deprecated projects.
+
+Examples, evidence and review process: [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Contents
 

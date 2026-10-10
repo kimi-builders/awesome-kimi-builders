@@ -4,14 +4,35 @@
 
 ## What gets listed
 
-**Bar: Kimi participation is enough — 100%-built-by-Kimi is NOT required.**
+**Projects do not have to be built with Kimi.** Any Agent, several Agents working
+together, or development without an Agent is welcome. We look for interesting,
+useful projects that meet real user needs and have a verifiable connection to
+**at least one** of these scopes:
 
-Listable:
+| Scope | What qualifies | Suitable first-party evidence |
+| --- | --- | --- |
+| **Built on Kimi** (`base`) | The project's core functionality uses Kimi models or APIs, regardless of how it was developed. | Source code, configuration or documentation showing implemented Kimi model/API use. |
+| **For the Kimi ecosystem** (`eco`) | Tools, integrations, SDKs, skills or resources explicitly serving Kimi users or developers, regardless of how they were developed. | Documentation or source showing the concrete Kimi integration or intended ecosystem use. |
+| **Kimi helped build** (`part`) | Kimi models or Agents actually participated in development; partial participation is enough, and the finished project need not use Kimi at runtime. | An author's development record or explanation documenting Kimi's contribution. |
 
-- Projects built with Kimi models, Kimi Code, or other agents (tag participants in `agents`)
-- Apps built for the Kimi ecosystem (MCP servers, IDE plugins, prompt/skill packs, integrations)
-- Apps using Kimi as their base model
-- Official Moonshot tools and models
+These are alternatives, not three requirements to meet together. Describe who the
+project serves, what need it meets and what makes it interesting or useful. There
+is no minimum star count or project size. Official Moonshot tools and models can
+also qualify; official status is separate from the scope and must be verified.
+
+For illustration only, not additional listings:
+
+| Example | Scope |
+| --- | --- |
+| An app developed with Codex whose core functionality calls the Kimi API | `base` |
+| A Kimi integration developed with Claude Code | `eco` |
+| A puzzle game developed with help from Kimi Code, with no Kimi dependency at runtime | `part` |
+| A project developed with another Agent that has no concrete Kimi connection | Not eligible |
+
+`scope` remains one value: choose the best-supported connection and describe any
+others in the body or review evidence. Agent tags record documented integrations
+or participation, not eligibility. Leave `agents` empty when unknown; do not add
+`kimi` merely because a project uses its API or serves its ecosystem.
 
 Not listable:
 
@@ -29,17 +50,22 @@ Not listable:
    separate PRs.
 2. Fill the fields per the schema in [`data/README.md`](./data/README.md); both
    `descriptionZh` and `descriptionEn` are required — one sentence each covering
-   "what it does + how Kimi is involved".
+   "what it does + its Kimi connection". Provide evidence for the selected scope;
+   Kimi development evidence is required only for `part`.
 3. Verify locally:
    ```bash
    node scripts/validate.mjs
-   node scripts/build-readme.mjs   # regenerates BOTH READMEs' list sections
+   node --test scripts/catalog.test.mjs
+   node scripts/build-readme.mjs   # Regenerates both READMEs' list sections
+   node scripts/build-catalog.mjs
    git add data/ README.md README.zh-CN.md
    ```
-4. Open the PR titled `add: <project name>` with the link and a one-line rationale.
-   CI re-runs validation and a "READMEs are up to date" check.
-5. Reviewers check: link works, project is actively maintained, description is accurate
-   and bilingual, `agents` tags are correct, category fits. Minor fixes come as
+4. Open the PR titled `add: <project name>` with the link, intended users/use case
+   and evidence for the selected scope. CI re-runs validation, tests and drift
+   checks for both READMEs and the catalog.
+5. Reviewers check: link works, project is actively maintained, its user value and
+   at least one Kimi connection are supported, description is accurate and bilingual,
+   `agents` tags are correct, category fits. Minor fixes come as
    suggestions; scope questions are discussed in the PR.
 
 ## Quality bar
@@ -47,9 +73,11 @@ Not listable:
 - Factual descriptions only — no "best/strongest/first", no copying the vendor's ad copy.
 - No links inside descriptions (the entry has `url`); no emoji.
 - Newer entries sort first within a category (handled by the generator).
-- `url` prefers the GitHub repo; use the `homepage` field only when there is no repo.
-- Entries may be removed when a project is abandoned, deprecated, renamed, or goes 404
-  long-term — removals also go through PRs.
+- `url` is the public project entry point and prefers the repository. Record the
+  repository and homepage separately in `repoUrl` and `homepage` when available.
+- Entries may be withdrawn when a project is abandoned, deprecated or goes 404
+  long-term — withdrawals also go through PRs. Renames and repository transfers
+  update the existing entry while preserving its ID.
 
 ## Code of conduct
 

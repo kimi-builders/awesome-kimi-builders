@@ -2,13 +2,26 @@
 
 [English](./README.md)(主版本) · **中文**
 
-全世界用 Kimi 构建的项目清单 —— 由 [kimi.builders](https://kimi.builders) 社区维护。
+收集与 Kimi 有关联、有趣且实用的项目，由 [kimi.builders](https://kimi.builders) 社区维护。
 
 ## 收录口径
 
-**不要求 100% 由 Kimi 构建。** Kimi 参与了、为 Kimi 生态做的应用、以 Kimi 为基座的项目都算;
-参与的 Agent 会在条目里标出。无论曾经多好,已废弃或停止维护的项目不予收录。
-收录标准与流程见 [CONTRIBUTING.zh-CN.md](./CONTRIBUTING.zh-CN.md)。
+**不要求必须用 Kimi 构建。** 项目可以由任何 Agent、多个 Agent 协作，或不借助 Agent 开发。
+我们关注项目是否有趣、能满足真实用户需求，并且有证据支持以下**任意一项**关联：
+
+| 收录口径 | 什么样的项目符合 | 是否要求 Kimi 参与开发 |
+| --- | --- | --- |
+| **以 Kimi 为基座**（`base`） | 项目核心功能使用 Kimi 模型或 API。 | 不要求，开发工具不限。 |
+| **为 Kimi 生态**（`eco`） | 明确服务 Kimi 用户或开发者的工具、集成、SDK、Skills 或资源。 | 不要求，关键是生态关联。 |
+| **Kimi 参与构建**（`part`） | Kimi 模型或 Agent 实际参与了开发。 | 要求有参与，但不要求全程；成品运行时可以不依赖 Kimi。 |
+
+三项是可选口径，不是必须同时满足的条件。例如，用 Codex 开发、调用 Kimi API 的应用可按
+`base` 推荐；用 Claude Code 开发的 Kimi 集成可按 `eco` 推荐。这些仅是说明性示例，不是新增收录。
+
+Agent 标签只记录有资料支持的集成或参与关系，不是准入门槛，也不能证明项目由 Kimi 编写；
+不清楚时可以留空。有趣的项目仍需具有明确的 Kimi 关联；已废弃或停止维护的项目不予收录。
+
+示例、证据要求及审核流程见 [CONTRIBUTING.zh-CN.md](./CONTRIBUTING.zh-CN.md)。
 
 ## 目录
 
