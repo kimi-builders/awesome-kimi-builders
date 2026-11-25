@@ -1,0 +1,31 @@
+{
+  "protocolVersion": 1,
+  "id": "niro",
+  "publication": "pending",
+  "name": "NIRO",
+  "url": "https://github.com/efrem-labs/niro-releases",
+  "descriptionZh": "通过 Mac Bridge 在 iPhone 上访问 Kimi Code 等智能体的受支持会话、查看进度并发送后续指令。",
+  "descriptionEn": "An iPhone companion for supported Kimi Code sessions and other agents through a local Mac Bridge.",
+  "category": "apps",
+  "agents": [
+    "kimi"
+  ],
+  "official": false,
+  "officialSubject": "vendor",
+  "repoUrl": "https://github.com/efrem-labs/niro-releases",
+  "homepage": "https://niro.efremlee.com",
+  "author": {
+    "name": "EFREM Labs",
+    "url": "https://github.com/efrem-labs"
+  },
+  "kind": "app",
+  "scope": "eco",
+  "kimiEvidence": [
+    {
+      "url": "https://github.com/efrem-labs/niro-releases#features-by-provider",
+      "note": "The release documentation identifies Kimi Code as a local ACP integration; desktop-native live synchronization is not fully verified."
+    }
+  ],
+  "bodyZh": "NIRO 是面向多个桌面智能体的 iPhone 客户端，包含 Kimi Code 本地 ACP 接入。安装 iOS 16+ 的 NIRO 与 macOS 13+ 的 Niro Bridge，配置电脑端 Kimi Code 后配对连接。桌面原生会话实时同步尚未完全验证，功能因 Agent 而异。公开仓库提供安装包与文档，应用源码未公开。",
+  "bodyEn": "NIRO is an iPhone companion for several desktop agents, including a local ACP integration with Kimi Code. Install NIRO (iOS 16+) and Niro Bridge (macOS 13+), configure Kimi Code on the Mac, then pair. Desktop-native live synchronization is not fully verified; features vary by agent. The public repository distributes installers and documentation; app source is not public."
+}
