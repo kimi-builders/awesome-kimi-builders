@@ -1,7 +1,7 @@
 {
   "protocolVersion": 1,
   "repository": "kimi-builders/awesome-kimi-builders",
-  "entryCount": 52,
+  "entryCount": 53,
   "pendingIds": [
     "entry-agentkimi",
     "entry-ai-sdk-moonshotai",
@@ -50,7 +50,8 @@
     "entry-system-prompts-leaks",
     "entry-tencent-tokenhub-kimi",
     "entry-vercel-ai-gateway-kimi-k3",
-    "entry-wechat-bot"
+    "entry-wechat-bot",
+    "niro"
   ],
   "entries": [
     {
@@ -192,5 +193,5 @@
       "sourceFile": "data/entries/yann-up-kimi-code-desktop.json"
     }
   ],
-  "digest": "c3c0e2c8bc61980d52a201e961c7f49332a613aac46c5d202f3ab5d5cf7c11eb"
+  "digest": "faf2f4f1fcca54d4d7eae22b583de53cbb9c756e640eed6a21c605042ac6dafc"
 }
